@@ -5,13 +5,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
 public class Client {
 
     // Задаем порт, к которому хотим присоединиться.
     // Через какой порт клиент это будет делать у себя - нам не важно
-    private static final int PORT = 1488;
+    private static final int PORT = 8989;
 
     // Также задаем адрес, где находится наш сервер (в данном случае на нашем локальном компьютере)
     private static final String HOST = "127.0.0.1";
